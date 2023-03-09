@@ -1,6 +1,6 @@
 @include('header',['title'=>'Acceuil'])
 
-<body style=" ">
+<body id="homebody">
   <div class="logo">
     <img src="{{asset('images/esplogo.png')}}" height="auto" alt="">
   </div>
@@ -47,17 +47,112 @@
   </nav>
 
 @include('menu')
-<!-- <main id="main" class="position-absolute top-0 w-100">
-  <div width="100%" height="hv">
-      <img width="100%" height="100%" src="../bg.jpeg" alt="">
-      <div class="position-absolute" style="top:30%">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae error amet quas iusto eligendi dolor voluptatum soluta? Error voluptatum totam atque voluptate consequuntur dolore temporibus quos. Corporis fugiat quidem corrupti.</p>
-      </div>
-  </div>
-</main> -->
 
-<main class="mt-5">
-      <div class="container texts">
+
+<main>
+
+    <img class="mobileimg" width="100%"  src="{{asset('images/bg.jpeg')}}" alt="">
+ 
+      <div class="container texts mt-5">
+        <h5 style="font-weight:bolder;color: #7A7E4E;" >
+        Esprit Forme est une retraite élégante au cœur de Marrakech sur plus .
+  Une véritable institution du bien-être avec hammam, sauna, cabines de soins .
+   Chic et calme, l'endroit est l'endroit idéal pour se détendre dans une atmosphère feutrée et découverte dʼun spa.
+
+       </h5>
+        <hr style="width:25%;border-top:solid !important;opacity:1" >
+        <p class="mt-4 mb-5">
+        Un Hammam pour votre beauté, douceur et purification avec une décoration authentique de marbre, et des experts thérapeutes, leurs mains vous seront servi lʼart de prendre
+soin de vos corps avec des massages différents et développés.
+Au cœur du centre une piscine pour se relaxer, des cours aquagym aident votre renforcement musculaire ou bien pour vous aider à la rééducation de vos blessés.
+        </p>
+        <p class="mt-5 ">
+        Sprit Forme devient de plus en plus populaire car les gens recherchent des moyens de soulager le stress et de se détendre. Ici, les thérapies de relaxation telles que les massages,
+l'acupuncture et les bains de vapeur peuvent apporter un changement rafraîchissant dans le corps. Avec des conseils et des soins appropriés, les traitements peuvent même
+contribuer à améliorer la santé d'un individu.
+        </p>
+
+
+        <h5 class="mt-4" style="font-weight:bolder; color: #7A7E4E;"  >
+        Notre centre SPA et Bien-Être avec une salle du sport et une piscine,
+         centre UNIQUE pour des clients UNIQUES.
+       </h5>
+        <hr style="width:25%;border-top:solid !important;opacity:1" >
+        <p class="mt-4 mb-5">
+        Notre salle de sport est un lieu doté dʼun équipement complet et de machines de dernière génération,
+       nos coachs professionnels proposent des séances de remise en forme sur mesure en cours privé pour vous accompagner et atteindre vos objectifs.
+        </p>
+   
+      </div>
+
+
+      <div class="container texts mt-5">
+        <h5 style="font-weight:bolder;color: #7A7E4E;" >
+        Esprit Forme est une retraite élégante au cœur de Marrakech sur plus .
+  Une véritable institution du bien-être avec hammam, sauna, cabines de soins .
+   Chic et calme, l'endroit est l'endroit idéal pour se détendre dans une atmosphère feutrée et découverte dʼun spa.
+
+       </h5>
+        <hr style="width:25%;border-top:solid !important;opacity:1" >
+        <p class="mt-4 mb-5">
+        Un Hammam pour votre beauté, douceur et purification avec une décoration authentique de marbre, et des experts thérapeutes, leurs mains vous seront servi lʼart de prendre
+soin de vos corps avec des massages différents et développés.
+Au cœur du centre une piscine pour se relaxer, des cours aquagym aident votre renforcement musculaire ou bien pour vous aider à la rééducation de vos blessés.
+        </p>
+        <p class="mt-5 ">
+        Sprit Forme devient de plus en plus populaire car les gens recherchent des moyens de soulager le stress et de se détendre. Ici, les thérapies de relaxation telles que les massages,
+l'acupuncture et les bains de vapeur peuvent apporter un changement rafraîchissant dans le corps. Avec des conseils et des soins appropriés, les traitements peuvent même
+contribuer à améliorer la santé d'un individu.
+        </p>
+
+
+        <h5 class="mt-4" style="font-weight:bolder; color: #7A7E4E;"  >
+        Notre centre SPA et Bien-Être avec une salle du sport et une piscine,
+         centre UNIQUE pour des clients UNIQUES.
+       </h5>
+        <hr style="width:25%;border-top:solid !important;opacity:1" >
+        <p class="mt-4 mb-5">
+        Notre salle de sport est un lieu doté dʼun équipement complet et de machines de dernière génération,
+       nos coachs professionnels proposent des séances de remise en forme sur mesure en cours privé pour vous accompagner et atteindre vos objectifs.
+        </p>
+   
+      </div>
+
+
+      <div class="container texts mt-5">
+        <h5 style="font-weight:bolder;color: #7A7E4E;" >
+        Esprit Forme est une retraite élégante au cœur de Marrakech sur plus .
+  Une véritable institution du bien-être avec hammam, sauna, cabines de soins .
+   Chic et calme, l'endroit est l'endroit idéal pour se détendre dans une atmosphère feutrée et découverte dʼun spa.
+
+       </h5>
+        <hr style="width:25%;border-top:solid !important;opacity:1" >
+        <p class="mt-4 mb-5">
+        Un Hammam pour votre beauté, douceur et purification avec une décoration authentique de marbre, et des experts thérapeutes, leurs mains vous seront servi lʼart de prendre
+soin de vos corps avec des massages différents et développés.
+Au cœur du centre une piscine pour se relaxer, des cours aquagym aident votre renforcement musculaire ou bien pour vous aider à la rééducation de vos blessés.
+        </p>
+        <p class="mt-5 ">
+        Sprit Forme devient de plus en plus populaire car les gens recherchent des moyens de soulager le stress et de se détendre. Ici, les thérapies de relaxation telles que les massages,
+l'acupuncture et les bains de vapeur peuvent apporter un changement rafraîchissant dans le corps. Avec des conseils et des soins appropriés, les traitements peuvent même
+contribuer à améliorer la santé d'un individu.
+        </p>
+
+
+        <h5 class="mt-4" style="font-weight:bolder; color: #7A7E4E;"  >
+        Notre centre SPA et Bien-Être avec une salle du sport et une piscine,
+         centre UNIQUE pour des clients UNIQUES.
+       </h5>
+        <hr style="width:25%;border-top:solid !important;opacity:1" >
+        <p class="mt-4 mb-5">
+        Notre salle de sport est un lieu doté dʼun équipement complet et de machines de dernière génération,
+       nos coachs professionnels proposent des séances de remise en forme sur mesure en cours privé pour vous accompagner et atteindre vos objectifs.
+        </p>
+   
+      </div>
+
+
+      <div class="container texts mt-5">
         <h5 style="font-weight:bolder;color: #7A7E4E;" >
         Esprit Forme est une retraite élégante au cœur de Marrakech sur plus .
   Une véritable institution du bien-être avec hammam, sauna, cabines de soins .

@@ -21,8 +21,8 @@
   @if(Lang::locale()=='en')
               @foreach($categories->subcategories as $cat)
                 @if ($cat->id == $subcat)
-                <div class="card me-2 order-first order-first rounded-0" >
-                        <img src="{{asset('images/'.$cat->image)}}" style="max-height:40%" width="100%"  class="card-img-top rounded-0" alt="...">
+                <div style="height:100vh;width:100%;" class="card me-2 order-first rounded-0 flex-fill" >
+                        <img src="{{asset('images/'.$cat->image)}}" height="250px" width="100%" class="card-img-top rounded-0" alt="...">
                         <div class="card-body">
                           <div class="d-flex flex-column align-items-center justify-content-center  " style="height: auto;">
                                 <h4 class="text-uppercase">{{$cat->name_en}}</h4>
@@ -38,8 +38,8 @@
                         </div>
                       </div>
                   @else
-                  <div class="card me-2 rounded-0"  >
-                          <img src="{{asset('images/'.$cat->image)}}" style="max-height:40%" width="100%"  class="card-img-top rounded-0" alt="...">
+                  <div style="height:100vh;width:100%;" class="card me-2 rounded-0 flex-fill"  >
+                          <img src="{{asset('images/'.$cat->image)}}" height="250px" width="100%" class="card-img-top rounded-0" alt="...">
                           <div class="card-body">
                             <div class="d-flex flex-column align-items-center justify-content-center " style="height: 100%;">
                                   <h4 class="text-uppercase">{{$cat->name_en}}</h4>
@@ -62,8 +62,8 @@
    @else             
       @foreach($categories->subcategories as $cat)
                   @if ($cat->id == $subcat)
-                  <div class="card me-2 rounded-0 order-first"  >
-                          <img src="{{asset('images/'.$cat->image)}}" style="max-height:40%" width="100%"  class="card-img-top rounded-0" alt="...">
+                  <div style="height:100vh;width:100%;" class="card me-2 rounded-0 order-first flex-fill"  >
+                          <img src="{{asset('images/'.$cat->image)}}" height="250px" width="100%" class="card-img-top rounded-0" alt="...">
                           <div class="card-body">
                             <div class="d-flex flex-column align-items-center justify-content-center  " style="height: auto;">
                                   <h4 class="text-uppercase">{{$cat->name_subcat}}</h4>
@@ -79,8 +79,8 @@
                           </div>
                         </div>
                   @else
-                  <div class="card me-2 rounded-0"  >
-                          <img src="{{asset('images/'.$cat->image)}}" style="max-height:40%" width="100%"  class="card-img-top rounded-0" alt="...">
+                  <div style="height:100vh;width:100%;" class="card me-2 rounded-0 flex-fill">
+                          <img src="{{asset('images/'.$cat->image)}}" height="250px" width="100%" class="card-img-top rounded-0" alt="...">
                           <div class="card-body">
                             <div class="d-flex flex-column align-items-center justify-content-center " style="height: 100%;">
                                   <h4 class="text-uppercase">{{$cat->name_subcat}}</h4>

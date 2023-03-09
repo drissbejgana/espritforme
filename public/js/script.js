@@ -34,7 +34,6 @@ function show(event){
 
 
 event.target.style.visibility="hidden";
-event.target.style.height="0";
 event.target.parentElement.style.height="auto";
 event.target.parentElement.parentElement.children[1].classList.add('show');
 }

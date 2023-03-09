@@ -16,7 +16,7 @@
   @include('menu')
   <main class="">
 
-    <h1 class="colorgr" style="font-weight: bold;border-bottom:2px solid;width:240px;padding-left:90px" >PISCINE</h1>
+    <h1  style="font-weight: bold;border-bottom:2px solid;width:240px;padding-left:90px" >PISCINE</h1>
 
 
     <div id="piscine" class="pt-5 mt-5 d-flex justify-content-evenly ">

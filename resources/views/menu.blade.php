@@ -21,7 +21,7 @@
                            @if($cat->id===1)
                              <li><a href="{{url('piscine/'.Lang::locale())}}">{{$subcat->name_en}}</a></li>  
                            @else
-                             <li><a href="{{url('categories/'.Lang::locale().'/'.$cat->id.'/'.$subcat->id)}}">{{$subcat->name_en}}</a></li>
+                             <li><a href="{{url('Spa&bien-etre/'.Lang::locale().'/'.$cat->id.'/'.$subcat->id)}}">{{$subcat->name_en}}</a></li>
                            @endif
                         @endforeach
 
@@ -48,7 +48,7 @@
                       @if($cat->id===1)
                         <li><a href="{{url('piscine/'.Lang::locale())}}">{{$subcat->name_subcat}}</a></li>  
                       @else
-                        <li><a href="{{url('categories/'.Lang::locale().'/'.$cat->id.'/'.$subcat->id)}}">{{$subcat->name_subcat}}</a></li>
+                        <li><a href="{{url('Spa&bien-etre/'.Lang::locale().'/'.$cat->id.'/'.$subcat->id)}}">{{$subcat->name_subcat}}</a></li>
                       @endif
                   @endforeach
 
@@ -88,7 +88,7 @@
                                         @if($cat->id===1)
                                           <li><a class="dropdown-item" href="{{url('piscine/'.Lang::locale())}}">{{$subcat->name_en}}</a></li>  
                                         @else
-                                          <li><a class="dropdown-item" href="{{url('categories/'.Lang::locale().'/'.$cat->id.'/'.$subcat->id)}}">{{$subcat->name_en}}</a></li>
+                                          <li><a class="dropdown-item" href="{{url('Spa&bien-etre/'.Lang::locale().'/'.$cat->id.'/'.$subcat->id)}}">{{$subcat->name_en}}</a></li>
                                         @endif
                                     @endforeach
                                   </ul>
@@ -107,7 +107,7 @@
                                     @if($cat->id===1)
                                       <li><a class="dropdown-item" href="{{url('piscine/'.Lang::locale())}}">{{$subcat->name_subcat}}</a></li>  
                                     @else
-                                    <li><a class="dropdown-item" href="{{url('categories/'.Lang::locale().'/'.$cat->id.'/'.$subcat->id)}}">{{$subcat->name_subcat}}</a></li>
+                                    <li><a class="dropdown-item" href="{{url('Spa&bien-etre/'.Lang::locale().'/'.$cat->id.'/'.$subcat->id)}}">{{$subcat->name_subcat}}</a></li>
                                     @endif
                                   @endforeach
                                 </ul>

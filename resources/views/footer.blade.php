@@ -1,4 +1,4 @@
-<footer class="footer pt-3 pb-3">
+<footer class="footer pt-3 pb-3" >
    
   <div class="logofoot" style="margin:10px">
     <img style="max-width: 90px;margin:10px" src="{{asset('images/esplogo.png')}}" alt="">

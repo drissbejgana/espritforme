@@ -362,8 +362,13 @@ width: 50%;
 }
 
 
-
-
+.mobileimg{
+    display: none;
+}
+#homebody{
+/* background-image: url('../images/bg.jpeg');
+background-repeat:space */
+}
 
 
 /*
@@ -417,6 +422,11 @@ PHONE
 .mobile_cat{
     display: block;
 }
+
+.mobileimg{
+    display: initial !important;
+}
+
 
 .mobile_cat>ul{
     list-style-type: none;

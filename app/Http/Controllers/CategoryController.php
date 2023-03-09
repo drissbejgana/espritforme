@@ -20,7 +20,7 @@ class CategoryController extends Controller
             'subcategories.typesubcategories',
         ])->where('id', $id)->first();
          
-        return view('categories')->with('categories',$data)->with('subcat',$subcat);
+        return view('Spa&bien-etre')->with('categories',$data)->with('subcat',$subcat);
     }
 
 }

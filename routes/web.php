@@ -34,7 +34,7 @@ Route::get('contact/{lang}', function ($lang) {
 Route::view('tarifs', 'tarifs');
 
 
-Route::get('categories/{lang}/{id}/{subcat}', [CategoryController::class,'show']);
+Route::get('Spa&bien-etre/{lang}/{id}/{subcat}', [CategoryController::class,'show']);
 
 // Route::view('test', 'test');
 Route::get('piscine/{lang}',function($lang){
